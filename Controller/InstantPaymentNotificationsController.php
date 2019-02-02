@@ -48,7 +48,7 @@ class InstantPaymentNotificationsController extends PaypalIpnAppController {
 		} else {
 			$this->log('POST Not Validated', 'paypal');
 		}
-		return $this->redirect('/');
+		return CURLOPT_HTTP200ALIASES;
 	}
 
 /**
